@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Banker Algorithm</title>
+    <link rel="icon" href="icone.ico"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+          rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Advent+Pro:700" rel="stylesheet">
+    <link rel="stylesheet" href="materialize.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h3 id="title">Algorithme de Banquier <br><span style="font-size:15px;line-height: 0px;color: cornsilk;">Développé par W&W</label>
+</h3>
+<div class="container">
+    <div class="row" id="row1">
+        <div class="l4 offset-l4 s12 m12">
+            <div id="div0">
+            </div>
+            <div id="cont">
+
+            </div>
+            <div id="div2">
+
+            </div>
+            <div id="div3">
+
+            </div>
+            <div id="div4">
+
+            </div>
+            <div id="div5">
+
+            </div>
+            <div id="restart" class="z-depth-1-half">
+                <div class="row">
+                    <div class="col s12 m12 l6" style="border-right:2px solid teal">
+                        <center>
+                            <h1 style="font-family:'advent pro';font-size:40px;"><span id="exec_time"></span>ms</h1>
+                            <h5 style="font-family:'advent pro';color:teal;font-size:20px;">Durée d'execution</h5><br>
+                        </center>
+                    </div>
+                    <div class="col s12 m12 l6">
+                        <button onclick="restart()" style="margin-top: 10%; width: 80%; height: 80px;"
+                                class="btn waves-effect waves-light btn-block btn-large">
+                            <i class="material-icons left" style="color:whitesmoke;">cached</i>
+                            Recommencer
+                        </button>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="node_modules/jquery/dist/jquery.js"></script>
+<script src="materialize.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
